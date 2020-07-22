@@ -7,6 +7,11 @@ public class Klass {
         return number;
     }
 
+    public String getDisplayName(){
+        //Class 2
+        return "Class "+number;
+    }
+
     public Klass(Integer number) {
         this.number = number;
     }
